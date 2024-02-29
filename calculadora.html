@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    Digite o primeiro número:
+    <input id="num1" name="num1" type="text">
+    <button id="botao" onclick="pegarNum1()">Enviar</button><br>
+    Digite o segundo número: 
+    <input id="num2" name="num2" type="text">
+    <button id="botao" onclick="pegarNum2()">Enviar</button>
+    <p>Escolha a Operação desejada:</p>
+    <button id="som" onclick="soma">SOMAR</button> 
+    <button id="sub" onclick="subt">SUBTRAIR</button>
+    <button id="mul" onclick="mult">MULTIPLICAR</button>
+    <button id="div" onclick="divi">DIVIDIR</button>
+    <button id="lim" onclick="limp">LIMPAR</button>
+    <p>O resultado é:</p>
+    <p span id="resultadoc">0</span></p>
+</body>
+</html>
